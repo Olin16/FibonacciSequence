@@ -32,6 +32,7 @@ public class FibonacciLike implements Fibonacci, Runnable{
             fib = number1 + number2;
             Thread.sleep(3000);
             System.out.println(fib);
+
         }
     }
 
